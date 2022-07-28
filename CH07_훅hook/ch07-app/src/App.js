@@ -1,16 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
-import UseEffect01 from './hooks/2_useEffect/UseEffect01';
-import UseEffect02 from './hooks/2_useEffect/UseEffect02';
-import UseEffect03 from './hooks/2_useEffect/UseEffect03';
-import Timer from './hooks/2_useEffect/Timer';
+import UseMemo01 from './hooks/4_useMemo/UseMemo01';
+import UseMemo02 from './hooks/4_useMemo/UseMemo02';
+import UseCallback03 from './hooks/5_uesCallBack/UserCallback03';
+import UserReducer02 from './hooks/6_useReducer/UserReducer02';
 
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <UseEffect03/>      
+        <UserReducer02/>      
       </header>
     </div>
   );
